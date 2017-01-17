@@ -6,8 +6,8 @@ Simple Rails and React project
 Make sure you have [Ruby](https://www.ruby-lang.org) and [Bundler](http://bundler.io)
 
 ```sh
-git clone https://gitlab.com/dringo-repo/DringoSite.git # or clone your own fork
-cd DringoSite
+git clone https://github.com/frankolson/ReactAccounts.git # or clone your own fork
+cd ReactAccounts
 bundle
 rails bootstrap
 ```
