@@ -1,24 +1,15 @@
-# README
+# Accounts
+Simple Rails and React project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Running Locally
 
-Things you may want to cover:
+Make sure you have [Ruby](https://www.ruby-lang.org) and [Bundler](http://bundler.io)
 
-* Ruby version
+```sh
+git clone https://gitlab.com/dringo-repo/DringoSite.git # or clone your own fork
+cd DringoSite
+bundle
+rails bootstrap
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The app should now be running on [localhost:3000](http://localhost:3000/).
