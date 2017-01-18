@@ -13,6 +13,15 @@ class RecordsController < ApplicationController
     end
   end
 
+  def destroy
+    @record = Record.find(params[:id])
+    if @record.destroy
+      render json: :success
+    else
+      render json: @record.errors, status: :unprocessable_entity
+    end
+  end
+
   private
 
   def record_params
