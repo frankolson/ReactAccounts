@@ -1,3 +1,5 @@
+source 'https://rubygems.org'
+
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
@@ -20,7 +22,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
-gem 'react-rails', '~> 1.0'
+gem 'react-rails'
 
 group :development, :test do
   gem 'byebug', platform: :mri

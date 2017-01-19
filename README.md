@@ -8,7 +8,7 @@ Make sure you have [Ruby](https://www.ruby-lang.org) and [Bundler](http://bundle
 ```sh
 git clone https://github.com/frankolson/ReactAccounts.git # or clone your own fork
 cd ReactAccounts
-bundle
+bundle install
 rails bootstrap
 ```
 
